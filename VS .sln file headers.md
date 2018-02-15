@@ -29,7 +29,7 @@ Microsoft Visual Studio Solution File, Format Version 9.0
 ### VS2005 (Beta 1)
 ```
 
-Microsoft Visual Studio Solution File, Format Version 8.0
+Microsoft Visual Studio Solution File, Format Version 9.0
 # Visual Studio 2005
 ```
 
