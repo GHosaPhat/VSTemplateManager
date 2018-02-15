@@ -12,3 +12,12 @@ The Visual Studio Template Manager extends the capabilities of the template and 
 When working with **Solution Templates**, both of these features can be customized to either create copies of all projects in the solution, or to simply create a reference to one or more of the projects in the solution.
 
 ***NOTE:** While this is a work-in-progress, it is intended to be a very simple utility for users of Microsoft's Visual Studio to simplify template creation and use.*
+
+### References
+The following references initiated and influenced the creation of this project:
+* This question and discussion on the StackOverflow Q&A site
+  * _**[How to add existing project in multi project sln template Visual Studio 2015](https://stackoverflow.com/questions/40537834/how-to-add-existing-project-in-multi-project-sln-template-visual-studio-2015)**_
+* This suggestion posted (by me) in Microsoft's Visual Studio UserVoice feedback forums
+  * _**[Support Creation of VS Templates for Solutions that Include (Reference) Existing Projects](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/33281728-support-creation-of-vs-templates-for-solutions-tha)**_
+* This additional (rejected) Visual Studio suggestion
+  * _**[Support Solution templates that specify existing projects](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/17137615-support-solution-templates-that-specify-existing-p)**_
