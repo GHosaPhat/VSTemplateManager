@@ -86,19 +86,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 
 **NOTE:** One possible use for the extra space at the very top of the header may be to include a comment.  I've done some minimal testing of this, and it seems to accept a _single line_ of text without any negative side effects.  It doesn't _appear_ to require any sort of prefix or comment notation (_e.g., starting the line with a `#`, `\\`, or `'` character_).  For example:
 
-```
-# Solution File Created by Visual Studio Template Manager from Gold Fish Bowl Design
+<pre>
+<i><b>Solution File Created by Visual Studio Template Manager from Gold Fish Bowl Design</b></i>
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-```
+</pre>
 
 appears to work just as well as
 
-```
-Solution File Created by Visual Studio Template Manager from Gold Fish Bowl Design
+<pre>
+<i><b># Solution File Created by Visual Studio Template Manager from Gold Fish Bowl Design</b></i>
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-```
+</pre>
 
 ---
 
