@@ -83,6 +83,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 
 *-_The **`VisualStudioVersion`** and **`MinimumVisualStudioVersion`** lines in the headers for VS2013, VS2015 and VS2017 appear to be optional. I can't say if they will remain so in future VS releases, but `.sln` files without these lines for these VS versions seem to work normally in my own testing._
 
+---
+
+**NOTE:** One possible use for the extra space at the very top of the header may be to include a comment.  I've done some minimal testing of this, and it seems to accept a _single line_ of text without any negative side effects.  It doesn't _appear_ to require any sort of prefix or comment notation (_e.g., starting the line with a `#`, `\\`, or `'` character_).  For example:
+
+```
+# Solution File Created by Visual Studio Template Manager from Gold Fish Bowl Design
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+```
+
+appears to work just as well as
+
+```
+Solution File Created by Visual Studio Template Manager from Gold Fish Bowl Design
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+```
+
+---
+
 Additional Sources:
 * [JamesSkemp/Visual Studio solution file headers](https://gist.github.com/JamesSkemp/bbe17351ecdf6b1d6e07) (_gist_)
 * [Hack the Project and Solution Files](http://www.onjava.com/pub/a/dotnet/excerpt/vshacks_chap1/index.html?page=4) (_O'Reilly Media_)
